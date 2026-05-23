@@ -18,3 +18,9 @@ exports.createUser = (data) => {
   users.push(newUser);
   return newUser;
 };
+exports.__resetUsers = () => {
+  users = [
+    { id: 1, name: "Alice" },
+    { id: 2, name: "Bob" }
+  ];
+};
