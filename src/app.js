@@ -5,7 +5,7 @@ const app = express();
 
 app.use(express.json());
 
-// routes should be here
+// routes should go here
 app.use("/api/users", userRoutes);
 
 // health check
