@@ -1,4 +1,3 @@
-const x = 10
 const express = require("express");
 const userRoutes = require("./routes/user.routes");
 
